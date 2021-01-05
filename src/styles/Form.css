@@ -1,0 +1,35 @@
+.form {
+  width: 470px;
+  padding-top: 9px;
+  height: 41px;
+  background: #666;
+  border-radius: 7px;
+  margin: 0 auto 15px;
+}
+
+.form > input {
+  float: left;
+  display: block;
+  background: #c4c4c4;
+  color: #666;
+  font-size: 18px;
+  border-radius: 5px;
+  margin: 0 9px;
+  border: none;
+  width: 383px;
+  height: 32px;
+  padding: 0;
+}
+
+.form > button {
+  cursor: pointer;
+  float: left;
+  padding: 0;
+  background: #c4c4c4;
+  color: #666;
+  font-size: 24px;
+  border-radius: 5px;
+  border: none;
+  width: 60px;
+  height: 32px;
+}

@@ -1,0 +1,58 @@
+.todos {
+  width: 470px;
+  height: 409px;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+.todos > .todo {
+  padding-top: 5px;
+  margin-top: 15px;
+  background: #666;
+  width: 444px;
+  height: 33px;
+  border-radius: 5px;
+}
+
+.todos > .todo:first-child {
+  margin-top: 0;
+}
+
+.todos > .todo > p {
+  cursor: default;
+  color: #c4c4c4;
+  display: block;
+  float: left;
+  margin: 0 15px;
+  font-size: 24px;
+  height: 28px;
+}
+
+.todos > .todo > p.done {
+  text-decoration: line-through;
+}
+
+.todos > .todo > button {
+  color: #c4c4c4;
+  cursor: pointer;
+  font-size: 24px;
+  border: none;
+  background: none;
+  display: block;
+  float: right;
+  padding: 0;
+  margin-right: 15px;
+}
+
+.todos::-webkit-scrollbar {
+  width: 11px;
+}
+
+.todos::-webkit-scrollbar-track {
+  background: none;
+}
+
+.todos::-webkit-scrollbar-thumb {
+  background: #666;
+  border-radius: 5px;
+}

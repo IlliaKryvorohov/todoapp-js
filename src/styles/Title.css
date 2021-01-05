@@ -1,0 +1,16 @@
+.title {
+  padding-top: 6px;
+  width: 470px;
+  height: 44px;
+  background: #666;
+  border-radius: 7px;
+  margin: 0 auto 15px;
+}
+
+.title > h1 {
+  height: 53px;
+  margin: 0;
+  text-align: center;
+  align-items: center;
+  color: #c4c4c4;
+}
